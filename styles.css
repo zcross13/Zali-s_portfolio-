@@ -48,10 +48,10 @@ section {
     padding: 5em 2em;
 }
 
-img {
+/* img {
     display: block;
     max-width: 100%;
-}
+} */
 
 strong {
     font-weight: var(--fw-bold);
@@ -87,7 +87,7 @@ h3 {
 
 .section__subtitle {
     margin: 0;
-    font-size: small;
+    font-size: .82em;
 }
 
 .section__subtitle--intro,
@@ -145,5 +145,45 @@ nav {
         position: relative;
         left: -1.5em;
         width: calc(100% + 1.5em)
+    }
+}
+
+/* My Services */
+
+.my-services {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    text-align: center;
+}
+
+.section__title--services {
+    color: var(--clr-accent);
+    position: relative;
+}
+
+.section__title--services::after {
+    content: '';
+    display: block;
+    width: 2em;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background: var(--clr-light);
+    opacity: 0.25;
+}
+
+.service {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+    .services {
+        display: flex;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .service+.service {
+        margin-left: 3em;
     }
 }
