@@ -287,6 +287,7 @@ nav {
 }
 
 .portfolio__img {
+    display: inline-block;
     transition:
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
