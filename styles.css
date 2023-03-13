@@ -450,6 +450,10 @@ header {
 
 .footer__link {
     font-weight: var(--fw-bold);
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #16e0bd 2px;
+    padding: 5px;
 }
 
 .footer__link:hover,
