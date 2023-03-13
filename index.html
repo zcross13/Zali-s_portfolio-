@@ -3,16 +3,21 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zali's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    <title>Zali Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
-    <!-- Header -->
     <header>
         <div class="logo">
             Logo Here
@@ -23,9 +28,9 @@
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#services" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
             </ul>
         </nav>
     </header>
@@ -35,135 +40,109 @@
         <h1 class="section__title section__title--intro">
             Hi, I am <strong>Zali Cross</strong>
         </h1>
-        <p class="section__subtitle section__subtitle--intro">
-            Full Stack Software Engineer
-        </p>
-        <img src="./images/computer.png" alt="" class="intro__img">
+        <p class="section__subtitle section__subtitle--intro">full stack developer</p>
+        <img src="./images/computer.png" alt="computer memoji" class="intro__img">
     </section>
 
-    <!-- My  Services -->
+
+    <!-- My services -->
     <section class="my-services" id="services">
         <h2 class="section__title section__title--services">What I do</h2>
         <div class="services">
             <div class="service">
+                <h3>Design + Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </div> <!-- / service -->
+
+            <div class="service">
                 <h3>E-Commerce</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minus quibusdam, commodi ex at
-                    explicabo quos molestiae id laboriosam quisquam esse minima itaque, laudantium aliquid assumenda
-                    reiciendis ipsam vel ut?</p>
-            </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </div> <!-- / service -->
+
             <div class="service">
-                <h3>Design and Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempora modi dolores, at porro
-                    incidunt obcaecati vel aut eum vero earum. Deserunt quas voluptatibus voluptates debitis quaerat,
-                    quidem tempora accusamus.</p>
-            </div>
-            <div class="service">
-                <h3>MERN Stack Applications</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum dignissimos iste aut? Veniam neque
-                    voluptate assumenda, nostrum quis dignissimos labore dolorum consectetur velit porro consequatur
-                    iure quisquam delectus earum et.</p>
-            </div>
-        </div>
+                <h3>Full Stack Applications</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </div> <!-- / service -->
+        </div> <!-- / services -->
 
         <a href="#work" class="btn">My Work</a>
     </section>
 
-    <!-- About Me -->
+
+    <!-- About me -->
     <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">About Me</h2>
-        <p class="section__subtitle section__subtitle--about">Software Engineer based out of Houston, Texas</p>
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Software Enginner based out of Houston, Texas</p>
         <div class="about-me__body">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias deleniti quos corporis atque
-                voluptatem, alias ipsum iste vitae, quasi expedita facere temporibus in dicta aspernatur fuga provident
-                soluta repellat modi!</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt alias quaerat sequi obcaecati
-                repudiandae, atque, veritatis sunt quibusdam accusantium dolores minus unde aut nulla odit ab ullam
-                nesciunt temporibus dignissimos!</p>
+            <p>Hi! My name is Zali and I enjoy creating things that help better the life of others. My interest in
+                becoming a full stack software engineer started back in 2008 when I decided to edit my Myspace page -
+                turns out having works drop down the screen taught me alot about HTML & CSS.</p>
+            <p>Fast forward to 2021, and I decided to make a career changing decision and enroll in Genereal Assembly's
+                software immersive program to begin my journey of becoming a full stack software enginner.</p>
+            <p>Today, I develop some pretty amazing applications, please see my work section below. My main focus these
+                days is building accessible, inclusive products that can one day help the lives of others.</p>
         </div>
-        <img src="./images/headshot.jpeg" class="about-me__img">
+
+        <img src="images/headshot.jpeg" alt="Smile photo of me" class="about-me__img">
     </section>
 
     <!-- My Work -->
     <section class="my-work" id="work">
-        <h2 class="section_title">Projects </h2>
-        <p class="'section__subtitle">Take a look at some of my work</p>
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
         <div class="portfolio">
-            <!-- portfoli item 01 -->
-            <a href="#" class="portfolio__item">
+            <!-- Portfolio item 01 -->
+            <a href="portfolio-item.html" class="portfolio__item">
                 <img src="https://media4.giphy.com/media/xZsLh7B3KMMyUptD9D/giphy.gif" alt="" class="portfolio__img">
             </a>
-            <!-- portfoli item 02 -->
-            <a href="#" class="portfolio__item">
+
+            <!-- Portfolio item 02 -->
+            <a href="portfolio-item.html" class="portfolio__item">
                 <img src="https://media4.giphy.com/media/xZsLh7B3KMMyUptD9D/giphy.gif" alt="" class="portfolio__img">
             </a>
-            <!-- portfoli item 03 -->
-            <a href="#" class="portfolio__item">
+
+            <!-- Portfolio item 03 -->
+            <a href="portfolio-item.html" class="portfolio__item">
                 <img src="https://media4.giphy.com/media/xZsLh7B3KMMyUptD9D/giphy.gif" alt="" class="portfolio__img">
             </a>
+
         </div>
     </section>
 
+
     <!-- Footer -->
     <footer class="footer">
+        <!-- replace with your own email address -->
         <a href="mailto:zalicross24@gmail.com" class="footer__link">zalicross24@gmail.com</a>
         <ul class="social-list">
             <li class="social-list__item">
-                <a class="social-list__link" href="https://github.com/zcross13">
-                    Github
+                <a class="social-list__link" href="https://www.linkedin.com/in/zali-cross/">
+                    <i class="fab fa-linkedin"></i>
                 </a>
             </li>
             <li class="social-list__item">
-                <a class="social-list__link" href="https://www.linkedin.com/in/zali-cross/">
-                    Linkedin
+                <a class="social-list__link" href="https://twitter.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/zcross13">
+                    <i class="fab fa-github"></i>
                 </a>
             </li>
         </ul>
     </footer>
+
+
     <script src="app.js"></script>
+
 </body>
 
 </html>
-
-
-<!-- <h1>Welcome</h1>
-    <div>
-        <p>
-            My name is Zali Cross, I'm a software engineer based in Houston, Texas. I am passionate about building out
-            of the box projects that can help individuals.
-        </p>
-    </div>
-    <div>
-        <p> Problem solver, Adaptable, Aspiring, Compassionate, Independent, Organized, Resourceful are only a few of
-            the words to describe me</p>
-    </div>
-    <div>
-        <p>Interested in the entire full stack spectrum with a focus on Javascript and React</p>
-    </div>
-    <div>
-        <h1>Contact Me</h1>
-        <p>I'm actively seeking a role as a software engineer. I thrive in environemnt where they value individuality
-            and
-            teamwork. If you have any questions, dont hestiaste to use this form.
-        </p>
-    </div>
-    <div>
-        <h1>Skills and Experience</h1>
-        <p>My journey starts off with my first HTML, CSS coding course I took at a community college back in 2022, from
-            there it was all she wrote. I feel in love with creating soemthing out of nothing.
-            I then enrolled myself in at Genereal Assembly Software Immmersive bootcamp and endure six months of nothing
-            but code.
-        </p>
-        <p> I create successful responsive websites that are fast, easy to use, and built with best pratices. The main
-            area of my experties is front-end Javascript, React and backend Node.js and mongoDB
-            building full stack mern application and animation games </p>
-    </div>
-    <form>
-        <input type="text" />
-        <input type="email" />
-        <input type="subject" />
-        <input type="message" />
-        <input type="submit>" />
-    </form>
-    // Skills and abilities
-    // Projects
-    // Links -->
